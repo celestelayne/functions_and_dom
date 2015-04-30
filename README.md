@@ -13,6 +13,9 @@ Try the following exercises in the browser.
 
     return arr;
   };
+  
+  swap(["moe", "larry", "curly"], 0, 2);
+  // => ["curly", "larry", "moe"]
   ```
 
 * Write a function to generate a random number in a specified range.
@@ -23,6 +26,11 @@ Try the following exercises in the browser.
 
     return randNum;
   };
+  
+  getRand(5, 6)
+  // => 5 or 6
+  getRand(5, 10)
+  // => 6 or some other num between 5 and 10
   ```
 
 * Write a function to create a specified number of random numbers from `1` to `100` in an array.
@@ -33,6 +41,11 @@ Try the following exercises in the browser.
 
     return arr; 
   }
+  
+  randArr(3)
+  //=> [23, 11, 82];
+  randArr(2)
+  //=> [88, 42];
   ```
 
 * Write a function to find the maximum number in an array.
@@ -43,7 +56,9 @@ Try the following exercises in the browser.
     
     return max;
   }
-
+  
+  getMax([1,2,88, 34, 22])
+ // => 88
   ```
 
 
