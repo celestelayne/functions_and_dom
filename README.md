@@ -52,7 +52,7 @@ Try the following exercises in the browser.
 
 Go to [generalassemb.ly](https://generalassemb.ly) and try the following exercises.
 
--------
+-----
 
 *  Grab the `body` from the page using `document.querySelector`. and change the `opacity` to `.5`.
 
@@ -91,42 +91,6 @@ body.style.transform = "rotateZ(60deg)";
 	```
 
 * Create a `click` event on the `body`.  When the body is `clicked` grab all the images on page then use the `style.transform` above to rotate each image. In other words, when the page is clicked rotate all images on the pages.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
